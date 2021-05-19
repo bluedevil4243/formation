@@ -1,7 +1,7 @@
 # formation
 
 
-POUR L'EVALUATION, voici les requêtes SQL
+Voici les requêtes SQL
 
 SCRIPT SQL Création BDD
 
