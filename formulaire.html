@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="..//css/style.css">
+    <title>Formulaire</title>
+    
+  </head>
+  <body>
+    <div id="logo"><img src="..//images/LOGO GRETA CFA loire.jpg" alt="logo" width="15%"></div>
+
+    <fieldset>
+      <legend id="#">FORMULAIRE DE CONTACT</legend>
+
+      <form action="formulaire.php" id="form" method="post">
+        <table>
+             
+          <tr>
+            <td><label for="name">Prenom :</label></td>
+            <td><input type="text" id="prenom" name="prenom" maxlength="20"/></td>
+          </tr>
+
+          <tr>
+            <td><label for="nom">Nom :</label></td>
+            <td><input type="text" id="nom" name="nom" maxlength="30" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="mail">Mail :</label></td>
+            <td><input type="text" id="mail" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,100}$"/></td>
+          </tr>
+
+          <tr>
+              <td><label for="message1">Message :</label></td>
+              <td>
+                  <input type="text" id="message1" name="message1" />
+              </td>
+          </tr>
+
+
+        </table>
+        <input type="submit" id="envoi" value="ENVOYER" />
+      </form>
+    </fieldset>
+  </body>
+
+  
+</html>
