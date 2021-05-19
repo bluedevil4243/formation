@@ -21,7 +21,7 @@
    
 
     <div class="div1">
-    <p> Voir Site Pile Vite (wordpress) en construction</a> </p>    
+    <p> Voir Site Pile Vite (wordpress) en construction </p>    
     </div>
 
     <div class="div2">
